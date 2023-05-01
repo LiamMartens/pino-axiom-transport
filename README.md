@@ -1,5 +1,5 @@
 # Pino Axiom Transport
-This is a very basic transport to Axiom for Pino
+This is a very basic transport to Axiom for Pino. It is using the `fetch` API to ensure support for Edge runtimes such as Vercel Edge and Cloudflare Workers. If you are using this in an environment which does not have access to the `fetch` api, you will have to polyfill it globally.
 
 ### Usage
 ```js
