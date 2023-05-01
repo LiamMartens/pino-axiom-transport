@@ -26,6 +26,11 @@
     "logging"
   ],
   "author": "Liam Martens <hi@liammartens.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiamMartens/pino-axiom-transport.git"
+  },
+  "homepage": "https://github.com/LiamMartens/pino-axiom-transport",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.16.3",
